@@ -1,0 +1,83 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	    {
+            "path" : "pages/dead/dead",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "倒计时",
+				"navigationStyle": "custom",
+				"navigationBarBackgroundColor": "transparent",
+                "enablePullDownRefresh": false
+				
+            }
+        }
+        ,{
+            "path" : "pages/positive/positive",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "正计时",
+					"navigationStyle": "custom",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "transparent"
+            }
+            
+        }
+        ,{
+            "path" : "pages/recommend/recommend",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "工具箱",
+					"navigationStyle": "custom",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "transparent"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+					"navigationStyle": "custom",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "transparent"
+            }
+            
+        }
+        ,{
+            "path" : "pages/addDo/addDo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "transparent",
+		"list": [
+			{"pagePath": "pages/dead/dead",
+			"text": "倒计时"},
+			{
+				"pagePath": "pages/positive/positive",
+				"text": "正计时"
+			},
+			{"pagePath": "pages/recommend/recommend",
+			"text": "推荐"},
+			{"pagePath": "pages/my/my",
+			"text": "我的"}
+			
+		]
+	}
+}
